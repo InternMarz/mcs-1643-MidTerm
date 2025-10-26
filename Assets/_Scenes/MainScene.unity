@@ -784,6 +784,7 @@ GameObject:
   - component: {fileID: 75939831}
   - component: {fileID: 75939830}
   - component: {fileID: 75939832}
+  - component: {fileID: 75939833}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -832,6 +833,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1468436191}
+--- !u!114 &75939833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75939829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee34fed83604724f93cc01fc86624ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldKey: 304
+  shieldVisual: {fileID: 1762640066}
+  normalSpeed: 20
 --- !u!1 &82875103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2502,6 +2522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3464,6 +3488,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5190,6 +5218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -5389,6 +5421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -5502,6 +5538,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5904,6 +5944,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -7066,6 +7110,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9265,6 +9313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -9752,6 +9804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -9865,6 +9921,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11922,6 +11982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -12455,9 +12519,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627471411}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 627471410}
   m_SourcePrefab: {fileID: 100100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
 --- !u!4 &627471405 stripped
 Transform:
@@ -12490,27 +12551,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.48508793, y: 0.1259062, z: 0.49985266}
   m_Center: {x: -0.0004445091, y: 0.05618135, z: 0}
---- !u!114 &627471410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627471406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 111099d032b523c46ba642883c91c3ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  matchMode: 0
-  otherObjectReference: {fileID: 627471406}
-  otherObjectTag: Encounter
-  targetCamera: {fileID: 1155284389}
-  originalCamera: {fileID: 643952689}
-  switchProbability: 1
-  uiToShow: {fileID: 0}
-  revertAfterSeconds: 5
-  collisionCooldown: 0.5
 --- !u!54 &627471411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12654,6 +12694,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14300,6 +14344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -14960,6 +15008,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15698,6 +15750,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17462,7 +17518,7 @@ Transform:
   m_GameObject: {fileID: 880487251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 731, y: 0.2, z: 530}
+  m_LocalPosition: {x: 731, y: -1.7, z: 530}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18665,6 +18721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -19032,6 +19092,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -19540,6 +19604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -19854,6 +19922,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -22806,6 +22878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -24057,6 +24133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -24442,6 +24522,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -25094,6 +25178,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -25949,6 +26037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.73065
@@ -26540,6 +26632,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -28911,6 +29007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -30346,6 +30446,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -31904,6 +32008,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -33644,6 +33752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -34214,6 +34326,113 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 18e0a23f11756454e801ad6f484ca310, type: 3}
   m_PrefabInstance: {fileID: 1749411208}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1762640066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762640067}
+  - component: {fileID: 1762640070}
+  - component: {fileID: 1762640069}
+  - component: {fileID: 1762640068}
+  m_Layer: 0
+  m_Name: shieldVisual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762640067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762640066}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.866, z: 0.6439991}
+  m_LocalScale: {x: 0.039999988, y: 0.59999996, z: 1.1999997}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1886589586}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1762640068
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762640066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &1762640069
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762640066}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cda0a272b6c2b0e49bcc71256fdb1492, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1762640070
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762640066}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1771967267
 GameObject:
   m_ObjectHideFlags: 0
@@ -35970,6 +36189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -36337,6 +36560,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 400166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 125701724}
+    - targetCorrespondingSourceObject: {fileID: 400166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1762640067}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
       insertIndex: -1
@@ -36353,6 +36579,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1886589594}
+    - targetCorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886589596}
   m_SourcePrefab: {fileID: 100100000, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
 --- !u!4 &1886589586 stripped
 Transform:
@@ -36371,7 +36600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ef7de928bcc3848ad839b87bb737c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 50
+  moveSpeed: 100
   rotationSpeed: 10
   forwardKey: 275
   backwardKey: 276
@@ -36461,6 +36690,26 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1886589596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921960861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591484b050d034446876924154a70f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTag: 1
+  triggerTag: Encounter
+  triggerObjectName: 
+  loadByName: 1
+  sceneName: BattleScene
+  sceneBuildIndex: 2
+  loadDelay: 3
+  singleUse: 1
 --- !u!1001 &1894538015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36753,6 +37002,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -37848,6 +38101,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_Name
       value: Plant3 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
+      propertyPath: m_TagString
+      value: Encounter
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bcd65237e57a75348badd8c90f53bcd0, type: 3}
       propertyPath: m_LocalScale.x

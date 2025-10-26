@@ -2,14 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RebindablePlayerMovement3D : MonoBehaviour
 {
-    [Header("Movement Settings")]
     public float moveSpeed = 5f;            // Movement speed
     public float rotationSpeed = 10f;       // How quickly to rotate toward direction
-
-    [Header("Key Bindings (can be changed in Inspector or at runtime)")]
     public KeyCode forwardKey = KeyCode.W;
     public KeyCode backwardKey = KeyCode.S;
     public KeyCode leftKey = KeyCode.A;
@@ -19,6 +17,7 @@ public class RebindablePlayerMovement3D : MonoBehaviour
     private Vector3 moveInput;
     private bool waitingForKey = false;
     private Action<KeyCode> onKeyAssigned;
+    private bool hasTriggered = false; // prevents multiple loads
 
     // PlayerPrefs keys
     private const string PREF_FORWARD = "key_forward";
