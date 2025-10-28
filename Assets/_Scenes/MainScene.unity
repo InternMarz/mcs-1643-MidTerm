@@ -36579,9 +36579,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1886589594}
-    - targetCorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1886589596}
   m_SourcePrefab: {fileID: 100100000, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
 --- !u!4 &1886589586 stripped
 Transform:
@@ -36690,26 +36687,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1886589596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921960861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591484b050d034446876924154a70f47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useTag: 1
-  triggerTag: Encounter
-  triggerObjectName: 
-  loadByName: 1
-  sceneName: BattleScene
-  sceneBuildIndex: 2
-  loadDelay: 3
-  singleUse: 1
 --- !u!1001 &1894538015
 PrefabInstance:
   m_ObjectHideFlags: 0
