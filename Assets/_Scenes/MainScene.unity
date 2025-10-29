@@ -678,6 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &69847422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -805,6 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &75939829
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +819,6 @@ GameObject:
   - component: {fileID: 75939830}
   - component: {fileID: 75939832}
   - component: {fileID: 75939833}
-  - component: {fileID: 75939834}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -881,19 +882,6 @@ MonoBehaviour:
   shieldKey: 304
   shieldVisual: {fileID: 1762640066}
   normalSpeed: 20
---- !u!114 &75939834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75939829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67afce1e01df7cb4bb53a059555c8137, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetScript: {fileID: 269473185}
 --- !u!1 &82875103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,6 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &105051039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2706,6 +2695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &175832390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3383,6 +3373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &202944551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3705,6 +3696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &212155425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3917,6 +3909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &220305834
 GameObject:
   m_ObjectHideFlags: 0
@@ -5372,6 +5365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &259330690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5591,6 +5585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &269473179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5731,6 +5726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &271958476
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,6 +6143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &294158658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6628,6 +6625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &310582177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7345,6 +7343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &323893705
 GameObject:
   m_ObjectHideFlags: 0
@@ -7741,6 +7740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &349525201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9430,6 +9430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &452942730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9931,6 +9932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &477436728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10071,6 +10073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &479319220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10447,6 +10450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &498213636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11147,6 +11151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &545293695
 GameObject:
   m_ObjectHideFlags: 0
@@ -11572,6 +11577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &564665364
 GameObject:
   m_ObjectHideFlags: 0
@@ -12036,6 +12042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &598594123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12170,6 +12177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &605008505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12676,6 +12684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &632420044
 GameObject:
   m_ObjectHideFlags: 0
@@ -12915,6 +12924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &643952686
 GameObject:
   m_ObjectHideFlags: 0
@@ -13916,6 +13926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &693479662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14292,6 +14303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &720725870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14508,6 +14520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &726613909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15189,6 +15202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &751299411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15662,6 +15676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &790654929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15963,6 +15978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &795327119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16512,6 +16528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &817082253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18360,6 +18377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &917053764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18713,6 +18731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &921960861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100166, guid: fbbb7e0ccd296444f8f4cb972237bf3a, type: 3}
@@ -19101,6 +19120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &937324737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19474,6 +19494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &952024580
 GameObject:
   m_ObjectHideFlags: 0
@@ -19643,6 +19664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &973188075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19978,6 +20000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &992800988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20564,6 +20587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1046479275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20691,6 +20715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1048189929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21008,6 +21033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1069352303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21138,6 +21164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1070454673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21916,6 +21943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1103819821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22125,6 +22153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1115223491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22609,6 +22638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!114 &1126274470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22622,6 +22652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1127651183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22749,6 +22780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1131975359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22883,6 +22915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1133474950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23659,9 +23692,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175894297}
+  - component: {fileID: 1175894298}
   m_Layer: 0
   m_Name: EncounterGrass
-  m_TagString: Untagged
+  m_TagString: Encounter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23682,6 +23716,20 @@ Transform:
   - {fileID: 627471405}
   m_Father: {fileID: 952024581}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1175894298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175894296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2b0138be5a324183fe4c743ad14f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1187442832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24062,6 +24110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &1209702379
 GameObject:
   m_ObjectHideFlags: 0
@@ -24468,6 +24517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &1228993526
 GameObject:
   m_ObjectHideFlags: 0
@@ -25146,6 +25196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1268340444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25909,6 +25960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1338021101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26521,6 +26573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1366460051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27477,6 +27530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1393429821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27956,6 +28010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &1423783092
 GameObject:
   m_ObjectHideFlags: 0
@@ -28191,6 +28246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1425466735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28590,6 +28646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1 &1450417443
 GameObject:
   m_ObjectHideFlags: 0
@@ -28975,6 +29032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1458928700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29266,6 +29324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1491130065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29753,6 +29812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1539950907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30329,6 +30389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1569098662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30456,6 +30517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1573173872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31641,6 +31703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!114 &1661385002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31654,6 +31717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1661925953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31955,6 +32019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1669557265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32082,6 +32147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1673948692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32287,6 +32353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1682416902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32970,6 +33037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1706689259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33454,6 +33522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1726092318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33673,6 +33742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1730019552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33800,6 +33870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1736753521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33930,6 +34001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!114 &1736753528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33943,6 +34015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1739372797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34528,6 +34601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1774863124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36196,6 +36270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1873359554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36879,6 +36954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1918380663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37019,6 +37095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1921196741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37146,6 +37223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &1923332178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38144,6 +38222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &2018371871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38687,6 +38766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &2053946127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39248,6 +39328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &2074914637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39624,6 +39705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &2086599298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40192,6 +40274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   encounterChance: 0.4
+  shieldKey: 304
 --- !u!1001 &2103707472
 PrefabInstance:
   m_ObjectHideFlags: 0

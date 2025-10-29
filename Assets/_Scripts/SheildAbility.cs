@@ -1,27 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Security;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShieldAbility : MonoBehaviour
 {
     [Header("Shield Settings")]
     public KeyCode shieldKey = KeyCode.LeftShift; // The key to activate shield
     public GameObject shieldVisual;              // Prefab or sprite that shows in front of player
-    public float normalSpeed = 5f;
+    public float normalSpeed = 1f;
     private float currentSpeed;
 
     [Header("References")]
     private RebindablePlayerMovement3D playerMovement; // Script controlling player movement
 
     private bool shieldActive = false;
-
     void Start()
     {
         playerMovement = GetComponent<RebindablePlayerMovement3D>();
 
         if (shieldVisual != null)
-            shieldVisual.SetActive(false);
+            shieldVisual.SetActive(true);
 
         currentSpeed = normalSpeed * 0.5f;
     }
@@ -42,7 +43,7 @@ public class ShieldAbility : MonoBehaviour
             DeactivateShield();
         }
     }
-    void ActivateShield()
+    public void ActivateShield()
     {
         if (!shieldActive)
         {
@@ -57,7 +58,7 @@ public class ShieldAbility : MonoBehaviour
         }
     }
 
-    void DeactivateShield()
+    public void DeactivateShield()
     {
         if (shieldActive)
         {
@@ -69,7 +70,6 @@ public class ShieldAbility : MonoBehaviour
             // Hide shield
             if (shieldVisual != null)
                 shieldVisual.SetActive(false);
-
         }
     }
 }
