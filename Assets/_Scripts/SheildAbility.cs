@@ -42,7 +42,6 @@ public class ShieldAbility : MonoBehaviour
             DeactivateShield();
         }
     }
-
     void ActivateShield()
     {
         if (!shieldActive)
