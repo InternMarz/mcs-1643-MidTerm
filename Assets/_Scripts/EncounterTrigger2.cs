@@ -9,8 +9,16 @@ public class EncounterTrigger2 : MonoBehaviour
     public KeyCode shieldKey = KeyCode.LeftShift;
     private bool shieldActive = false;
 
+    private AudioSource audioSrc;
+
+    private void Start()
+    {
+        audioSrc = GetComponentInChildren<AudioSource>();
+    }
     private void OnTriggerEnter(Collider other)
     {
+        audioSrc.Play();
+
         float roll = Random.value; // 0.0 - 1.0
         if (other.transform.CompareTag("Player") && roll < encounterChance)
         {
