@@ -1,30 +1,17 @@
 #### MCS 1643 README file
-# **Replace this Project Name**
+# **Demarcus Reid**
 
-#### Author: *Replace this with your name*
+#### Author: *Demarcus Reid*
 
 ##### Modified: *2024-09-06*
 
 <br>
 
-#### Questions for tutorial assignments: (remove this section for projects)
-**Which tutorial is this? **
-
-**1. Did you make any additions beyond the tutorial requirements? If so, what?**
-> &nbsp;
-><i>(let me know what to look for, any additional keys to use, etc.)</i>   
-> &nbsp;
-
-**2. Did anything give you particular trouble?
-> &nbsp;
-><i>(If something in your assignment doesn't work or you think part of the tutorial can be improved, explain here)</i>   
-> &nbsp;
-
 #### Questions for projects: (remove this section for tutorial assignments)
 **1. What are the controls to your game? How do we play?**   
-
+  
 > &nbsp;
-><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
+><i>(Move up, down, left, and right with arrow keys. Press Esc key to open menu. Press and hold shift to utilize new shield. Use fight and run buttons displayed on screen to get away from enemys)</i>   
 > &nbsp;
  
 
@@ -32,7 +19,7 @@
 **2. What creative additions/enhancements did you make? How can we find them?**   
 
 > &nbsp;
-><i>(If you don't tell us how to experience them, we could easily miss them.)</i>   
+><i>(I added a new ability to the classic Pokemon Red game that create a shield for the player that blocks said player from running into enemys)</i>   
 > &nbsp;
  
 
@@ -40,7 +27,19 @@
 **3. Any assets used that you didn't create yourself?**   
 
 > &nbsp;
-><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
+><i>(art, music, etc. Just tell us where you got it, link it here)</i>
+- https://sfxr.me/
+- https://downloads.khinsider.com/game-soundtracks/album/pokemon-firered-leafgreen-music-super-complete
+- https://assetstore.unity.com/packages/tools/gui/easy-transitions-225607
+- https://assetstore.unity.com/packages/3d/props/stylized-farm-asset-pack-small-276993
+- https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-buddy-pbr-polyart-253961
+- https://assetstore.unity.com/publishers/23554
+- https://assetstore.unity.com/packages/3d/environments/urban/desert-buildings-modular-144178
+- https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552
+- https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552
+- https://assetstore.unity.com/packages/3d/characters/toony-tiny-people-demo-113188
+- https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-duo-pbr-polyart-225148
+- https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
 > &nbsp;
  
 
@@ -48,7 +47,7 @@
 **4. Did you receive help from anyone outside this class or from anyone in this class that is not in a group with you?**   
 
 > &nbsp;
-><i>(list their names and what they helped with)</i>   
+><i>(Peter Guenther)</i>   
 > &nbsp;
  
 
@@ -56,7 +55,9 @@
 **5. Did you get help from any AI Code Assistants?**   
 
 > &nbsp;
-><i>(Including things like Chat-GPT, Copilot, etc. Tell us which .cs file to look in for the citation and describe what you learned)</i>   
+><i>(RebindablePlayerMovement3D_SceneSwitch)</i>
+><i>(EncounterTrigger2)</i>
+><i>(SheildAbility)</i>  
 > &nbsp;
  
 
@@ -72,7 +73,8 @@
 **7. What trouble did you have with this project?**   
 
 > &nbsp;
-><i>(Even if you didn't complete the project, you can still get partial credit if you tell us about why it's incomplete.)</i>   
+><i>(For my next game I'll definitely try my best to not over complicate my code. During the creation of my current game I overcomplicated my code for my mechanics, resulting in code that either had issues or just didn't work. In seeing this I'll be making sure to simplify my code. I'll also be taking into account how large my scope is and properly assessing what my task is next time. From the start of this project I heavily underestimated how many base game mechanics there were for Pokemon Red and let that poor judgement guide my early decision making. Coming from this, I'll make sure to write out a detailed plan sooner so that I can properly assess what I am doing before it becomes too late. 
+)</i>   
 > &nbsp;
  
 
